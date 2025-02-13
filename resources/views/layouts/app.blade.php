@@ -35,14 +35,7 @@
         </main>
     </div>
 
-    {{-- <script src="{{ asset('js/scripts/speechRecognition.js') }}"></script>
-    @stack('other-scripts') --}}
-
-    <script>
-        function testFunc() {
-            console.log(1111);
-        }
-    </script>
-
+    <script src="{{ asset('scripts/speechRecognition.js')}}"></script>
 </body>
+
 </html>
